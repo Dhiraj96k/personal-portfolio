@@ -3,6 +3,7 @@
 
 const styleSwitcherToggle = document.querySelector(".style-switcher-toggler");
 styleSwitcherToggle.addEventListener("click", () => {
+    console.log("click");
     document.querySelector(".style-switcher").classList.toggle("open");
 });
 // hide style on scroll{}
